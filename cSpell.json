@@ -1,5 +1,7 @@
 {
 	"words": [
-		"commitlint"
+		"commitlint",
+		"corejs",
+		"esbenp"
 	]
 }
