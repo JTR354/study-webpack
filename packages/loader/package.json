@@ -6,12 +6,14 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack",
-		"build:debug": "ndb webpack"
+		"build:debug": "ndb webpack",
+		"build:debug2": "node-nightly --inspect-brk ./node_modules/webpack/bin/webpack.js --config webpack.config.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"node-nightly": "^1.8.1",
 		"webpack": "^5.83.1",
 		"webpack-cli": "^5.1.1"
 	}
