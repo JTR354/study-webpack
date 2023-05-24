@@ -68,6 +68,18 @@ importers:
         specifier: ^5.1.1
         version: 5.1.1(webpack-dev-server@4.15.0)(webpack@5.83.1)
 
+  packages/runtime-env:
+    devDependencies:
+      ndb:
+        specifier: ^1.1.5
+        version: 1.1.5
+      webpack:
+        specifier: ^5.83.1
+        version: 5.83.1(webpack-cli@5.1.1)
+      webpack-cli:
+        specifier: ^5.1.1
+        version: 5.1.1(webpack-dev-server@4.15.0)(webpack@5.83.1)
+
 packages:
 
   /@ampproject/remapping@2.2.1:

@@ -6,6 +6,10 @@
 		{
 			"path": "./packages/debug-node",
 			"name": "debug-node"
+		},
+		{
+			"path": "./packages/runtime-env",
+			"name": "runtime-env"
 		}
 	],
 	"settings": {
